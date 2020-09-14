@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Jonathan";
+    src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
+}
+@font-face {
+    font-family: "Cormorant";
+    src: local("Cormorant"), url(../Fonts/Cormorant-Bold.otf), format("open type") 
+}
+
+
+
+@font-face {
+    font-family: "kristen";
+    src:  local( "kristen"), url(../Fonts/ITCKRIST.ttf), format( "true type");
+}
+
+.cloud{
+    position: relative;
+    width: 1443px;
+    height: 650px;
+}
+
+.contact {
+    font-family: Jonathan;
+    font-size: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 12%;
+    left: 37%;
+    color: black;
+    z-index: 1;
+
+}
+
+.contact1 {
+    width: 483px;
+    height: 30px;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 21%;
+    left: 35%;
+    background-color: pink;
+    border-radius: 30%;
+    color: pink;
+    z-index: 1;
+
+}
+
+.collage {
+    width: 700px;
+    height: 550px;
+    top: 15%;
+    left: 27%;
+    border-radius: 10%;
+    border: 5px solid gray;
+    position: absolute;
+    opacity: 70%;
+}
+
+.mail {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 10%;
+    left: 9%;
+}
+
+.email {
+    font-family: 'Sunflower', sans-serif;;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 14%;
+}
+
+.home {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 10%;
+    left: 44%;
+}
+
+.sauga{
+    font-family: 'Sunflower', sans-serif;;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 49%
+}
+
+.Linkedin {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 10%;
+    left: 70%;
+}
+
+.linkedin {
+    font-family: 'Sunflower', sans-serif;;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10%;
+    left: 75%
+}

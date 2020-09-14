@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Jonathan";
+    src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
+}
+@font-face {
+    font-family: "Cormorant";
+    src: local("Cormorant"), url(../Fonts/Cormorant-Bold.otf), format("open type") 
+}
+
+
+
+@font-face {
+    font-family: "kristen";
+    src:  local( "kristen"), url(../Fonts/ITCKRIST.ttf), format( "true type");
+}
+
+.skills {
+    width: 1440px;
+    height: 710px;
+    background-color: #F4D8D4;
+    position: relative;
+}
+
+.myskill {
+    position: absolute;
+    height: 80px;
+    font-family: 'Sunflower', sans-serif;;
+    font-size: 60px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    top: 5%;
+}
+
+.myski {
+    font-family: "Jonathan";
+    font-size: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    height: 80px;
+    top: 15%;
+}
+
+.desk {
+    width: 1200px;
+    height: 550px;
+    position: absolute;
+    bottom: 0%;
+    left: 10%
+}
+
+.comp {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 35%;
+    top: 23.5%;
+}
+
+.phone {
+    position: absolute;
+    width: 70px;
+    height: 140px;
+    left: 57%;
+    top: 44%;
+}
+
+.book {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    right: 20%;
+    top: 30.5%;
+}

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Jonathan";
+    src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
+}
+@font-face {
+    font-family: "Cormorant";
+    src: local("Cormorant"), url(../Fonts/Cormorant-Bold.otf), format("open type") 
+}
+
+
+
+@font-face {
+    font-family: "kristen";
+    src:  local( "kristen"), url(../Fonts/ITCKRIST.ttf), format( "true type");
+}
+
+.education {
+    background-color: white; 
+    width: 1440px; 
+    height: 707px; 
+    position: relative;
+}
+
+.whitemarble {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.myed {
+    color: black;
+    font-family: "Jonathan";
+    font-size: 135px;
+    position: absolute;
+    width: 645px;
+    height: 119px;
+    top: 15%;
+    left: 35%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* text-transform: capitalize;  */
+}
+
+.pinkline { 
+    background: #D3BAB7;
+    position: absolute;
+    width: 536px;
+    height: 35px;
+    left: 30%;
+    top: 20%;
+}
+
+.box {
+    position: absolute;
+    width: 569px;
+    height: 360px;
+    left: 10%;
+    top: 45%;
+
+    border: 4px solid #5E5E5E;
+}
+.gb {
+    position: absolute;
+    width: 406px;
+    height: 69px;
+    left: 16%;
+    top: 40%;
+
+
+    font-family: 'Sunflower', sans-serif;;
+    font-size: 55px;
+    color: #700136;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4D8D4;
+}
+
+.edtext {
+    width: 500px;
+    height: 315px;
+    left: 12.5%;
+    top: 50%;
+    position: absolute;
+    font-family: "Cormorant";
+    font-size: 30px;
+    line-height: 45px;
+
+}
+
+.deg {
+    color: #700136;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.year {
+    font-style: italic;
+    font-weight: lighter;
+    color: #5E5E5E;
+}
+
+.subtext {
+    color: #8A495E;
+}
+
+.gblogo {
+    position: absolute;
+    width: 170px;
+    height: 90px; 
+    right: 0%;
+}
+
+.box2 {
+    position: absolute;
+    width: 569px;
+    height: 360px;
+    right: 6%;
+    top: 45%;
+
+    border: 4px solid #5E5E5E;
+}
+
+.uof {
+    position: absolute;
+    width: 362px;
+    height: 88px;
+    right: 13%;
+    top: 38%;
+
+
+    font-family: 'Sunflower', sans-serif;;
+    font-size: 55px;
+    color: #700136;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: text-top;
+    padding-top: 5px;
+    background-color: #F4D8D4;
+}
+
+.t {
+    position: absolute;
+    width: 250px;
+    height: 69px;
+    right: 17%;
+    top: 43%;
+
+
+    font-family: 'Sunflower', sans-serif;;
+    font-size: 55px;
+    color: #700136;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.edtext2 {
+    width: 500px;
+    height: 305px;
+    right: 8.5%;
+    top: 51%;
+    position: absolute;
+    font-family: "Cormorant";
+    font-size: 30px;
+    line-height: 45px;
+    /* how to remove autocapitalization  */
+}
+
+.uoft {
+    position: absolute;
+    height: 90px;
+    width: 380px;
+    right: 0%;
+}
