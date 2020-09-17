@@ -10,9 +10,9 @@ class Homepage extends React.Component {
                     <img src={Cherry} class="background"/>
                     <div class={"pinkBox"} style={{display: 'flex', justifyContent: 'left'}} />
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', border: 'solid 1px red'}}>
+                <div style={{ display: 'flex', alignItems: 'center'}}>
                     <img src={Profile} class="image" style={{marginTop: '30px'}}/>
-                    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}}>
+                    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginLeft: '2%'}}>
                         <div class="name"> JONI SOROPIA </div>
                         <div class="headline"> Human Resources Student </div>
                     </div>

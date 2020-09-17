@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "Jonathan";
-    src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
-}
-@font-face {
-    font-family: "Cormorant";
-    src: local("Cormorant"), url(../Fonts/Cormorant-Bold.otf), format("open type") 
-}
-
-
 
 @font-face {
     font-family: "kristen";
@@ -17,41 +7,41 @@
 
 .background1 {
     background-color: #F4D8D4; 
-    width: 1438px; 
-    height: 720px; 
-    position: relative;
+    width: 100%; 
+    height: 100%; 
+    position: absolute;
 }
 
 .joni {
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
     color: #F8E8E5;
     position: absolute;
     margin-top: 100px;
     margin-bottom: 605px;
     margin-left: 500px;
-    font-family: "Cormorant";
+    font-family: 'Cormorant', serif;
    
 }
 
 .student {
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
     color: #A67663;
     position: absolute;
     margin-top: 250px;
     margin-left: 400px;
-    font-family: "Jonathan"; 
+    font-family: 'Jonathan'; 
 }
 
 .soropia {
-    font-size: 200px;
+    font-size: 100px;
     text-align: center;
     color: #F8E8E5;
     position: absolute;
     margin-top: 330px;
     margin-left: 280px;
-    font-family: "Cormorant";
+    font-family: 'Cormorant', serif;
 }
 
 .arrow {

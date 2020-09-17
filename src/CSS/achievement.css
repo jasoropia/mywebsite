@@ -2,10 +2,6 @@
     font-family: "Jonathan";
     src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
 }
-@font-face {
-    font-family: "Cormorant";
-    src: local("Cormorant"), url(../Fonts/Cormorant-Bold.otf), format("open type") 
-}
 
 
 
@@ -79,7 +75,7 @@ font-size: 135px;
 
 .description {
     position: absolute;
-    font-family: "Cormorant";
+    font-family: 'Cormorant', serif;
     font-size: 35px;
 }
 

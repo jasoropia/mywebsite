@@ -1,2 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap');
+
+@font-face {
+    font-family: 'Jonathan';
+    src: url(../Fonts/Jonathan.ttf), format("true type"); 
+    font-weight: normal;
+    font-style: normal;
+}

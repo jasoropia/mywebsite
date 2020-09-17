@@ -1,46 +1,24 @@
-@font-face {
-    font-family: "Jonathan";
-    src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
-}
-@font-face {
-    font-family: "Cormorant";
-    src: local("Cormorant"), url(../Fonts/Cormorant-Bold.otf), format("open type") 
-}
 
-
-@font-face {
-    font-family: "kristen";
-    src:  local( "kristen"), url(../Fonts/ITCKRIST.ttf), format( "true type");
-}
 .about {
     background-color: white; 
-    width: 100%; 
-    height: 100%; 
-    position: "relative";
+    width: inherit; 
+    height: inherit; 
+    position: "absolute";
 }
 
 
 .pinkmarble {
-    width: 1438px;
-    height: 340px ;
-    position: relative;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
+    width: 100%;
+    height: 55%;
+    position: absolute;
 }
 
 .me {
     font-family: 'Sunflower', sans-serif;;
-    font-weight: bolder;
-    font-size: 130px;
-    font-stretch: 15%;
+    font-size: 100px;
     height: 130px;
     width: 500px;
-    position: absolute;
-    top: 23%;
-    bottom: auto;
-    margin-right: auto;
-    margin-left: 52%;
+    position: relative;
     color: #A67663;
     z-index: 1;
 }
@@ -52,11 +30,11 @@
     border: 4px solid #5E5E5E;
     position: absolute;
     top: 10%;
+    position: relative;
     margin-left: 10%;
     display: flex;
     z-index: 1;
 }
-
 
 .text {
     color: #A67663;
@@ -65,10 +43,5 @@
     height: 350px; 
     font-stretch: 10%;
     font-size: 35px;
-    margin-left: 45%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
 }
 

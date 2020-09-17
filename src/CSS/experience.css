@@ -2,10 +2,6 @@
     font-family: "Jonathan";
     src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
 }
-@font-face {
-    font-family: "Cormorant";
-    src: local("Cormorant"), url(../Fonts/Cormorant-Bold.otf), format("open type") 
-}
 
 
 
@@ -108,7 +104,7 @@ text-align: center
     width: inherit;
     top: 50%;
 
-    font-family: "Cormorant";
+    font-family: 'Cormorant', serif;
     font-size: 25px;
     font-weight: bold;
 
@@ -122,7 +118,7 @@ text-align: center
     width: inherit;
     top: 55%;
 
-    font-family: "Cormorant";
+    font-family: 'Cormorant', serif;
     font-size: 25px;
     color: #5E5E5E;
     font-weight: lighter;
