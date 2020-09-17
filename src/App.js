@@ -33,7 +33,7 @@ class App extends React.Component {
                         <Route exact path="/Contact">
                             <Contact></Contact>
                         </Route>
-                        
+                        {/* HI JONI <3 */}
                     </Switch>
                 </Router>
             </div>
