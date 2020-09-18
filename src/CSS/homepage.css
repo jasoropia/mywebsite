@@ -1,36 +1,57 @@
-
 .background {
-    width: 100%; 
-    height: 100%;
-    position: absolute;
-    z-index: -2;
-    opacity: 50%;
-}
-
-.pinkBox {
     background-color: #D3BAB7;
     position: absolute;
-    width: 40%;
+    width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+}
+
+.white {
+    background-color: #F3F1EE;
+    position: absolute;
+    width: 75%;
+    height: 75%;
     z-index: -1;
 }
 
-.image {
-    width: 35%;
-    height: 80%;
-    border: 15px solid #D3BAB7;
-    border-radius: 10%;
-    margin-left: 20%
+.plant {
+    width: 10%;
+    height: 30%;
+    position: relative;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 
-.name {
-    font-family: 'Sunflower', sans-serif !important;
-    font-size: 60px;
+.plant2 {
+    width: 10%;
+    height: 30%;
+    position: relative;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+.image {
+    width: 15%;
+    height: 35%;
+    position: relative;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 .headline {
-    font-family: 'Satisfy', cursive !important;
-    font-size: 47px;
+    font-family: 'Open Sans Condensed, sans-serif' !important; /*not working*/
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.name {
+    font-family: 'Pinyon Script', cursive !important;
+    font-size: 60px;
 }
 
 
