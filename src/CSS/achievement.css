@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: "kristen";
-    src:  local( "kristen"), url(../Fonts/ITCKRIST.ttf), format( "true type");
+    src:  local( "kristen"), url('../Fonts/Jonathan.ttf'), format( "true type");
 }
 
 .achievement {

@@ -1,10 +1,3 @@
-
-@font-face {
-    font-family: "kristen";
-    src:  local( "kristen"), url(../Fonts/ITCKRIST.ttf), format( "true type");
-}
-
-
 .background1 {
     background-color: #F4D8D4; 
     width: 100%; 

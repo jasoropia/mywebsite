@@ -1,15 +1,3 @@
-@font-face {
-    font-family: "Jonathan";
-    src: local("Jonathan"), url(../Fonts/Jonathan.ttf), format("true type"); 
-}
-
-
-
-@font-face {
-    font-family: "kristen";
-    src:  local( "kristen"), url(../Fonts/ITCKRIST.ttf), format( "true type");
-}
-
 .experience {
     width: 1440px;
     height: 710px;
