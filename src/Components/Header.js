@@ -32,7 +32,7 @@ class Header extends React.Component {
 
 
         return (
-            <AppBar position="static" style={
+            <AppBar position="fixed" style={
                 { backgroundColor: "rgba(211, 186, 183, 0.33)" }
             }>
 
