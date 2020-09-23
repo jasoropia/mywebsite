@@ -26,7 +26,7 @@ class Homepage extends React.Component {
                         <Divider className="divider" style={{backgroundColor: "#FF8AC2"}}></Divider>
                         <Divider className="divider" style={{backgroundColor: "#700136"}}></Divider>
                     </div>
-                    <p class="headline">  Reliable. Organized. Something</p>
+                    <p class="headline">  Reliable. Organized. Creative.</p>
                     <p class="name"> Joni Soropia </p>
                 </div>
             </div>

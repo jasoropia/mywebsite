@@ -6,8 +6,6 @@ import Experience from "./Experience";
 import Experience2 from "./Experience2";
 import Skills from "./Skills";
 import Achievement from "./Achievement";
-import {Link} from "react-router-dom";
-import { Switch, Route, BrowserRouter as Router, Redirect} from "react-router-dom";
 import {withRouter} from "react-router-dom";
 class Portfolio extends React.Component {
     componentDidMount () {
@@ -28,11 +26,10 @@ class Portfolio extends React.Component {
 
         if (this.state.pageIndex == 1) {subPage = 
             (
-            <div className= "background1">
+            <div class= "background1">
                 <div className="joni"> JONI</div>
                 <div className="soropia"> SOROPIA </div>
                 <div className= "student"> Student Portfolio </div>
-                    
             </div>)
         }
 

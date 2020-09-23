@@ -9,17 +9,20 @@ class Contact extends React.Component {
     render() {
         return (
             
-            <div>
-                <img src = {Cloud} class = "cloud"/>
+            <div class = 'conatactpage'>
+                <img src = {Cloud} class = 'cloud'/>
                 <div class = "contact1"></div>
                 <div class = "contact"> Contact Me </div>
                 <img src= {Collage} class= "collage"/>
+
+                <div class = 'information'>               
                     <img src = {Mail} class = "mail"/>
-                    <div class = "email"> jasoropia@gmail.com </div>
+                    <p class = "email"> jasoropia@gmail.com </p>
                     <img src = {Home} class = "home"/>
-                    <div class = "sauga"> Mississauga, ON </div>
+                    <p class = "sauga"> Mississauga, ON </p>
                     <img src ={Linkedin} class = "Linkedin"/>
-                    <div class = "linkedin"> /Joni-Soropia </div>
+                    <p class = "linkedin"> JoniSoropia </p>
+                    </div> 
             </div>
            
         )

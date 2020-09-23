@@ -1,30 +1,40 @@
 import React from 'react';
 import {withRouter} from "react-router-dom";
 import "../CSS/projects.css"
-import Recruit from "../Images/recruit.png"
-import Plan from "../Images/plan.png"
-import Outreach from "../Images/outreach.png"
-import Evaluate from "../Images/evaluate.png"
-import Train from "../Images/train.png"
-import Design from "../Images/design.png"
-import Inspect from "../Images/inspect.png"
-import Aesthetic from "../Images/aesthetics.jpg";
+import {ProImage1} from '../Images/recruit.png';
+import {ProImage2} from "../Images/inspect.png";
+import {ProImage3} from "../Images/outreach.png";
+import {ProImage4} from "../Images/plan.png";
+import {ProImage5} from "../Images/evaluate.png";
+import {ProImage6} from "../Images/design.png";
+import Divider from '@material-ui/core/Divider';
 
 class Projects extends React.Component {
     render() {
         return (
             
-            <div class = "project">
-                <img src = {Aesthetic} class = "aesthetic"/>
-                <div class = "mypro">My Projects Involve</div>
-                <img src = {Recruit} class = "pro recruit"/>
-                <img src = {Plan} class = "pro plan"/>
-                <img src = {Outreach} class = "pro outreach"/>
-                <img src = {Inspect} class = "pro inspect"/>
-                <img src = {Evaluate} class = "pro evaluate"/>
-                <img src = {Design} class = "pro design"/>
-                <img src = {Train} class = "pro train"/>
+        <div class = "project">
+            <div class = 'top' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%'}}>
+            <img src = {ProImage1} class= 'proimage'/>
+            <img src = {ProImage2} class= 'proimage'/>
+            <img src = {ProImage3} class= 'proimage'/>
             </div>
+
+            <div style={{display: 'flex', justifyContent: 'space-around', width: '100%', marginTop: '2%'}}>
+            <Divider className="divider2" style={{backgroundColor: "#F4D8D4"}}></Divider>
+            <Divider className="divider2" style={{backgroundColor: "#D3BAB7"}}></Divider>
+            <Divider className="divider2" style={{backgroundColor: "#FF8AC2"}}></Divider>
+            <Divider className="divider2" style={{backgroundColor: "#700136"}}></Divider>
+            </div> 
+
+            <div class = 'bottom' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%'}}>
+            <img src = {ProImage4} class= 'proimage'/>
+            <img src = {ProImage5} class= 'proimage'/>
+            <img src = {ProImage6} class= 'proimgae'/>
+            </div>
+        
+            <p class = 'title'>My Projects</p>
+        </div>
            
         )
 

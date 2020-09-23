@@ -2,7 +2,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-import Signature from "../Images/signature.png";
+import Logo from "../Images/JS.png";
 import {Link} from "react-router-dom";
 import "../CSS/header.css";
 class Header extends React.Component {
@@ -33,32 +33,32 @@ class Header extends React.Component {
 
         return (
             <AppBar position="fixed" style={
-                { backgroundColor: "rgba(211, 186, 183, 0.33)" }
+                { backgroundColor: "#F1E8E7"}
             }>
 
 
                 <Toolbar>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "row", width: "100%" }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexDirection: "row", width: "100%",}}>
                         <div style={{ display: "flex", justifyContent: "left", alignItems: "center", flexDirection: "row"}}>
-                            
-                            <div class= "initials"> JS </div>
-                            <img src={Signature} width="160" height="50" alt="jonisignature" />
+                            <img src = {Logo} class= 'logo' />
+                            <div class = 'signature'>Joni Soropia</div>
+                          
                         </div>
-                        <div style={{ display: "flex", justifyContent: "right", alignItems: "center", flexDirection: "row"}}>
+                        <div class = 'toolbar' style={{ display: "flex", justifyContent: "right", alignItems: "center",}}>
                            <Link to= "/JoniSoropia">
-                                <Button style={{ color: colorMap["/"]}} onClick={() => this.handleChange("/")}> Home </Button>
+                                <div class = 'button' style={{ color: colorMap["/"]}} onClick={() => this.handleChange("/")}> HOME </div>
                             </Link>
 
                             <Link to= "/Portfolio">
-                                <Button style={{color: colorMap["/Portfolio"]}} onClick={() => this.handleChange("/Portfolio")}> Portfolio </Button>
+                                <div class = 'button'style={{color: colorMap["/Portfolio"]}} onClick={() => this.handleChange("/Portfolio")}> PORTFOLIO </div>
                             </Link>
                                
                             <Link to= "/Projects">
-                                <Button style={{color: colorMap["/Projects"]}} onClick={() => this.handleChange("/Projects")}> Projects </Button>
+                                <div class = 'button'style={{color: colorMap["/Projects"]}} onClick={() => this.handleChange("/Projects")}> PROJECTS </div>
                             </Link>
                                 
                             <Link to= "/Contact">
-                                <Button style={{color: colorMap["/Contact"]}} onClick={() => this.handleChange("/Contact")}> Contact </Button>
+                                <div class = 'button'style={{color: colorMap["/Contact"]}} onClick={() => this.handleChange("/Contact")}> CONTACT </div>
                             </Link>
                                 
                             

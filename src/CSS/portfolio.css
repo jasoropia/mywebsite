@@ -1,39 +1,36 @@
 .background1 {
     background-color: #F4D8D4; 
-    width: 100%; 
-    height: 100%; 
+    display: flex;
+    flex-direction: column;
     position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
 }
 
 .joni {
-    font-size: 100px;
-    text-align: center;
+    font-size: 140px;
     color: #F8E8E5;
-    position: absolute;
-    margin-top: 100px;
-    margin-bottom: 605px;
-    margin-left: 500px;
+    position: relative;
     font-family: 'Cormorant', serif;
    
 }
 
 .student {
-    font-size: 100px;
-    text-align: center;
+    font-size: 130px;
     color: #A67663;
+    height: 100px;
     position: absolute;
-    margin-top: 250px;
-    margin-left: 400px;
     font-family: 'Jonathan'; 
+    z-index: 2;
 }
 
 .soropia {
-    font-size: 100px;
-    text-align: center;
+    font-size: 140px;
     color: #F8E8E5;
-    position: absolute;
-    margin-top: 330px;
-    margin-left: 280px;
+    position: relative;
     font-family: 'Cormorant', serif;
 }
 
@@ -47,6 +44,7 @@
     font-size: 90px;
     font-weight: bolder;
     color: #E2CAC6;
+    opacity: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,6 +61,7 @@
     font-size: 90px;
     font-weight: bolder;
     color: #E2CAC6;
+    opacity: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
