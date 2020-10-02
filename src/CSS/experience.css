@@ -44,7 +44,7 @@ text-align: center
     align-items: center;
     width: inherit;
 
-    font-family: 'Satisfy', cursive;;
+    font-family: 'Satisfy', cursive;
     font-size: 125px;
     color: rgba(211, 186, 183, 0.59);
 }
@@ -66,8 +66,9 @@ text-align: center
     width: inherit;
     top: 25%;
 
-    font-family: 'Sunflower', sans-serif;;
-    font-size: 55px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
     color: #700136;
 }
 
@@ -79,8 +80,9 @@ text-align: center
     width: inherit;
     top: 35%;
 
-    font-family: 'Sunflower', sans-serif;;
-    font-size: 55px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
     color: #700136;
 }
 
@@ -125,11 +127,11 @@ text-align: center
     top: 10%;
 }
 
-.skate {
+.second {
     top: 70%!important;
 }
 
-.harbour {
+.other {
     top: 75%!important;
 }
 

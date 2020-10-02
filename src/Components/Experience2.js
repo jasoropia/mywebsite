@@ -22,17 +22,21 @@ class Experience extends React.Component {
                     <div class = "title"> Don </div>
                     <div class = "date"> 2019 </div>
                     <div class = "company"> DEEP UofT </div>
-                    <div class = "date don"> 2018 </div>
-                    <div class = "company mws"> MWS Camps </div>
+                    <div class = "date second"> 2018 </div>
+                    <div class = "company other"> MWS Camps </div>
                 </div>
 
                 <div class = "ex2">
                     <div class = "number">05</div>
                     <img src = {Game} class = "icon2"/>
-                    <div class = "position"> Student Club </div>
-                    <div class = "title"> President </div>
-                    <div class = "date"> 2016-2018 </div>
-                    <div class = "company"> Pair-a-Dice Gaming </div>
+                    <div class = "position"> Student </div>
+                    <div class = "title"> Organizations </div>
+                    <div class = "date"> 2019-2020 </div>
+                    <div class = "company"> Social Media Coordinator </div>
+                    <div class = "company additional"> Get Lit Gaming </div>
+                    <div class = "date second"> 2016-2018 </div>
+                    <div class = "company other"> President </div>
+                    <div class = "company other2"> Pair-a-Dice Gaming </div>
                 </div>
 
                 <div class = "ex3">

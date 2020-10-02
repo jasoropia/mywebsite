@@ -14,7 +14,7 @@ class Education extends React.Component {
                 <div class = "pinkline"></div>
                 <div class = "myed"> My Education </div>
                 <div class = "box">
-                    <div class = "deg"> Postgraduate Certificate in Human Resources Management </div>
+                    <div class = "deg"> Postgraduate Certificate -in Human Resources Management </div>
                     <div class = "year"> 2019-2020</div>
                     <div class = "subtext"> cGPA: 3.59 </div>
                     <div class = "subtext"> Working towards CHRP Designation </div>
