@@ -12,7 +12,7 @@ class About extends React.Component {
             <div>
                 <div class = "about">
                 <img src= {Pinkmarble} class= "pinkmarble"/>
-                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center',}}>
                     <img src= {Highpark} class = "highpark"/>
                     <div class = 'words'>
                         <div class= "me"> THIS IS ME! </div>

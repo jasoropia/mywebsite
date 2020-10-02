@@ -1,16 +1,9 @@
 
-.about {
-    background-color: white; 
-    width: inherit; 
-    height: inherit; 
-    position: "absolute";
-}
-
-
 .pinkmarble {
     width: 100%;
     height: 55%;
     position: absolute;
+    z-index: -1;
 }
 
 .me {
@@ -18,16 +11,14 @@
     position: relative;
     font-size: 100px;
     height: 10%;
-    width: 30%;
+    width: 60%;
     color: #A67663;
     top: 10%;
     left: 15%;
-    border: 2px solid red;
 }
 
 .highpark {
-    width: 30%;
-    height: 80%;
+    width: 23%;
     margin-left: 10%;
     margin-right: 10%;
     vertical-align: middle;
@@ -41,7 +32,8 @@
 .text {
     color: #A67663;
     font-family: 'Satisfy', cursive;
-    width: 50%;
+    margin-top: 110px;
+    width: 95%;
     height: 30%; 
     font-stretch: 10%;
     font-size: 35px;
