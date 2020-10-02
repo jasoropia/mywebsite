@@ -21,8 +21,8 @@ class Experience extends React.Component {
                     <div class = "title"> Instructor </div>
                     <div class = "date"> 2017-2020 </div>
                     <div class = "company"> City of Mississauga </div>
-                    <div class = "date skate"> 2015-2017 </div>
-                    <div class = "company harbour"> Habourfront Centre </div>
+                    <div class = "date second"> 2015-2017 </div>
+                    <div class = "company other"> Habourfront Centre </div>
                 </div>
 
                 <div class = "ex2">

@@ -34,32 +34,6 @@
     right: 10%
 }
 
-.position {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: inherit;
-    top: 25%;
-
-    font-family: 'Sunflower', sans-serif;;
-    font-size: 55px;
-    color: #700136;
-}
-
-.title {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: inherit;
-    top: 35%;
-
-    font-family: 'Sunflower', sans-serif;;
-    font-size: 55px;
-    color: #700136;
-}
-
 .date {
     position: absolute;
     display: flex;
@@ -88,6 +62,10 @@
     font-weight: lighter;
 }
 
+.additional {
+    top: 60% !important
+}
+
 .ex1 {
     position: absolute;
     width: 338px;
@@ -96,12 +74,8 @@
     top: 35%;
 }
 
-.don {
-    top: 70%!important;
-}
-
-.mws {
-    top: 75%!important;
+.other2 {
+    top: 80%!important;
 }
 
 .ex2 {

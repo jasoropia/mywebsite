@@ -12,20 +12,17 @@ class About extends React.Component {
             <div>
                 <div class = "about">
                 <img src= {Pinkmarble} class= "pinkmarble"/>
-                <div style={{ display: 'flex', alignItems: 'center'}}>
+                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
                     <img src= {Highpark} class = "highpark"/>
-                    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center',}}>
+                    <div class = 'words'>
                         <div class= "me"> THIS IS ME! </div>
                         <div class= "text"> 
-                            “I’ve always been shy when it comes to talking about myself. 
-                            Yet I realized, the opportunities that I’ve enjoyed the most 
-                            have been because I decided to step outside of my comfort 
-                            zone and just do it. So, this site is dedicated to 
-                            showcasing who I am and my journey to trying new things 
-                            while learning to be confident outside of my comfort zone.”
+                            As a recent graduate, I have accomplished a lot that has 
+                            showcased who I am as a person. I want to show my skill 
+                            versitility and my willingness to learn in a creative way. 
+                        </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
 
