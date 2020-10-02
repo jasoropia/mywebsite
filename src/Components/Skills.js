@@ -11,12 +11,12 @@ class Skills extends React.Component {
         return (
             <div class="skills">
                 <div class="pink_background" />
-                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                <div class="column">
                     <div class="myskill">What I Bring to the Table</div>
                     <div class="myski">My Skills</div>
-                    <div style={{display: 'flex', justifyContent: 'center', alignItems:'bottom', width: '100%', border: 'solid red 1px'}}>
-                        <img src={Comp} class="comp" />
+                    <div class="desk_items">
                         <img src={Phone} class="phone" />
+                        <img src={Comp} class="comp" />
                         <img src={Book} class="book" />
                     </div>
                     <img src={Desk} class="desk" />

@@ -17,6 +17,9 @@ class App extends React.Component {
                             <Route exact path="/">
                                 <Redirect to="/JoniSoropia"></Redirect>
                             </Route>
+                            <Route exact path="/mywebsite">
+                                <Redirect to="/JoniSoropia"></Redirect>
+                            </Route>
                             <Route exact path="/JoniSoropia">
                                 <Homepage></Homepage>
                             </Route>

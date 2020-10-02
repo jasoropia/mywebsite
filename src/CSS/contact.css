@@ -16,7 +16,7 @@
 .contact {
     margin-top: 40px;
     font-family: Jonathan;
-    font-size: 120px;
+    font-size: 125px;
     color: black;
     z-index: 2;
 
@@ -29,12 +29,12 @@
     border-radius: 30%;
     color: pink;
     z-index: 1;
-    margin-top: -85px;
+    margin-top: -95px;
 }
 
 .collage {
     margin-top: -40px;
-    width: 40%;
+    width: 42%;
     border-radius: 10%;
     border: 5px solid gray;
     opacity: 70%;
