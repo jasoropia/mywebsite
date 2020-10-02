@@ -44,7 +44,7 @@
     font-size: 90px;
     font-weight: bolder;
     color: #E2CAC6;
-    opacity: 45% !important;
+    opacity: 0.45 !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,7 @@
     font-size: 90px;
     font-weight: bolder;
     color: #E2CAC6;
-    opacity: 45% !important;
+    opacity: 0.45 !important;
     display: flex;
     justify-content: center;
     align-items: center;
