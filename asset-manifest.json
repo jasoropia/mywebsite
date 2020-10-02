@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mywebsite/static/css/main.486643fb.chunk.css",
-    "main.js": "/mywebsite/static/js/main.da6bc5da.chunk.js",
-    "main.js.map": "/mywebsite/static/js/main.da6bc5da.chunk.js.map",
-    "runtime-main.js": "/mywebsite/static/js/runtime-main.8f22862e.js",
-    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.8f22862e.js.map",
-    "static/js/2.ee993744.chunk.js": "/mywebsite/static/js/2.ee993744.chunk.js",
-    "static/js/2.ee993744.chunk.js.map": "/mywebsite/static/js/2.ee993744.chunk.js.map",
+    "main.css": "/mywebsite/static/css/main.c4295f8a.chunk.css",
+    "main.js": "/mywebsite/static/js/main.5c043d99.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.5c043d99.chunk.js.map",
+    "runtime-main.js": "/mywebsite/static/js/runtime-main.c5af55f8.js",
+    "runtime-main.js.map": "/mywebsite/static/js/runtime-main.c5af55f8.js.map",
+    "static/js/2.77f1b855.chunk.js": "/mywebsite/static/js/2.77f1b855.chunk.js",
+    "static/js/2.77f1b855.chunk.js.map": "/mywebsite/static/js/2.77f1b855.chunk.js.map",
     "index.html": "/mywebsite/index.html",
-    "precache-manifest.ac8436c3bd9430634c30f3e7ca024fb3.js": "/mywebsite/precache-manifest.ac8436c3bd9430634c30f3e7ca024fb3.js",
+    "precache-manifest.fab2ef5c9c4c753bb15601458f126049.js": "/mywebsite/precache-manifest.fab2ef5c9c4c753bb15601458f126049.js",
     "service-worker.js": "/mywebsite/service-worker.js",
-    "static/css/main.486643fb.chunk.css.map": "/mywebsite/static/css/main.486643fb.chunk.css.map",
-    "static/js/2.ee993744.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.ee993744.chunk.js.LICENSE.txt",
+    "static/css/main.c4295f8a.chunk.css.map": "/mywebsite/static/css/main.c4295f8a.chunk.css.map",
+    "static/js/2.77f1b855.chunk.js.LICENSE.txt": "/mywebsite/static/js/2.77f1b855.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/mywebsite/static/media/Jonathan.845a73cf.ttf",
     "static/media/JS.png": "/mywebsite/static/media/JS.cf315124.png",
     "static/media/Joniwhite.png": "/mywebsite/static/media/Joniwhite.c4b94a17.png",
@@ -50,9 +50,9 @@
     "static/media/whitetable.jpg": "/mywebsite/static/media/whitetable.38131d1d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f22862e.js",
-    "static/js/2.ee993744.chunk.js",
-    "static/css/main.486643fb.chunk.css",
-    "static/js/main.da6bc5da.chunk.js"
+    "static/js/runtime-main.c5af55f8.js",
+    "static/js/2.77f1b855.chunk.js",
+    "static/css/main.c4295f8a.chunk.css",
+    "static/js/main.5c043d99.chunk.js"
   ]
 }
