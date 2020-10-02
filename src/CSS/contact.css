@@ -37,7 +37,7 @@
     width: 42%;
     border-radius: 10%;
     border: 5px solid gray;
-    opacity: 70%;
+    opacity: 70% !important;
 }
 
 .information {
